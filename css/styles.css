@@ -383,6 +383,7 @@ address {
   
 }
 
+.hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
 }
