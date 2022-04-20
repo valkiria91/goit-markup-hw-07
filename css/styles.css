@@ -166,7 +166,6 @@ img {
 .current::after{
   content: "";
   position:absolute;
-  display: block;
   left:0;
   top: 51px;
   width: 100%;
