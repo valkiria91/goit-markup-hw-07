@@ -1,12 +1,8 @@
 .work-directions {
-    padding-top: 0;
-}
-
-.work-directions-list {
     display: flex;
 }
 
-.work-directions-card {
+.work-directions__card {
     flex-basis: calc((100% - 60px) / 3);
 
     &:not(:last-child) {
@@ -14,12 +10,12 @@
     }
 }
 
-.work-directions-image-wrapper {
+.work-directions__image-wrapper {
     position: relative;
     overflow: hidden;
 }
 
-.work-directions-text {
+.work-directions__text {
     position: absolute;
     bottom: 0;
     left: 0;

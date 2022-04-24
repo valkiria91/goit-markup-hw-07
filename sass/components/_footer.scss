@@ -59,6 +59,7 @@ address {
 
 .footer-social-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer-social-list-item:not(:last-child) {

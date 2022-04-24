@@ -36,4 +36,13 @@ img {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    
+    &_top-padding_zero{
+        padding-top: 0;
+    }
+
+    &_theme_dark
+    {
+        background-color: var(--theme-light-color);
+    }
 }

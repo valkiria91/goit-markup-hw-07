@@ -1,14 +1,11 @@
-.worker {
-    background-color: var(--theme-light-color);
-}
-
-.worker-list {
+.workers
+{
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.worker-card {
+.workers__card {
     background-color: var(--primary-white-color);
     flex-basis: calc((100% - 90px) / 4);
 
@@ -17,27 +14,27 @@
     }
 }
 
-.worker-info-wrapper {
+.workers__info-wrapper {
     padding: 30px 32px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.worker-name,
-.worker-position {
+.workers__name,
+.workers__position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.worker-name {
+.workers__name {
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.worker-position {
+.workers__position {
     color: var(--text-secondary-color);
     margin-bottom: 16px;
 }

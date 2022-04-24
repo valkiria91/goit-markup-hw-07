@@ -1,14 +1,14 @@
-.filter-list {
+.filters {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.filter-item:not(:last-child) {
+.filters__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.filter-button {
+.filters__button {
     font-family: var(--text-primary-font);
     font-weight: 500;
     font-size: 16px;
