@@ -111,13 +111,17 @@ img {
 }
 
 /*НАВИГАЦИЯ САЙТА И КОНТАКТЫ В ХЕДЕРЕ */
-.site-nav,
-.nav-list {
+.site-nav {
   display: flex;
   align-items: center;
 }
 
-.contact-list {
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -127,36 +131,34 @@ img {
   margin-right: 50px;
 }
 
-.contact-header-item:not(:last-child) {
+.contact-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .nav-link,
-.contact-header-link {
+.contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 5px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover, .nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
 }
 
 .nav-link {
   color: var(--text-primary-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-header-link {
+.contact-link {
   color: var(--text-secondary-color);
   display: flex;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link:focus,
-.nav-link:hover,
-.contact-header-link:focus,
-.contact-header-link:hover {
-  color: var(--accent-color);
 }
 
 .contact-icon {
@@ -165,8 +167,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-header-link:focus .contact-icon,
-.contact-header-link:hover .contact-icon {
+.contact-link:focus .contact-icon, .contact-link:hover .contact-icon {
   fill: var(--accent-color);
 }
 
