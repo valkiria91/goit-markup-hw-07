@@ -1,4 +1,4 @@
-.hero-button {
+.modal-button {
     font-family: var(--text-primary-font);
     font-weight: 700;
     font-size: 16px;
@@ -8,7 +8,7 @@
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    padding: 10px 32px;
+    padding: 10px 10px;
     min-width: 200px;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -19,4 +19,20 @@
     &:focus {
         background-color: #188ce8;
     }
+}
+
+.modal-button_form_centered {
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-button_with_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal-button__icon {
+    fill: var(--primary-white-color);
+    margin-left: 10px;
 }
