@@ -124,6 +124,7 @@
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
 
+
     &::before {
         display: inline-block;
         content: '';
@@ -139,6 +140,7 @@
         .checkbox__input:focus+& {
             border-color: var(--accent-color);
         }
+
 
         .checkbox__input:checked+& {
             background-image: url('../images/check-icon.svg');
