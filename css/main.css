@@ -552,9 +552,6 @@ img {
 
 .social-list {
   display: flex;
-}
-
-.social-list_theme_light {
   justify-content: space-between;
 }
 
