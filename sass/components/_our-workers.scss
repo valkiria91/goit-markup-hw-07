@@ -6,7 +6,7 @@
 }
 
 
-.workers__card {
+.workers__item {
     background-color: var(--primary-white-color);
     flex-basis: calc((100% - 90px) / 4);
 
@@ -22,20 +22,20 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.workers__name,
-.workers__position {
+.workers__title,
+.workers__text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.workers__name {
+.workers__title {
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.workers__position {
+.workers__text {
     color: var(--text-secondary-color);
     margin-bottom: 16px;
 }

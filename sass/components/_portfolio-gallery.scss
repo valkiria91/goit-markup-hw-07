@@ -4,7 +4,7 @@
     flex-wrap: wrap;
 }
 
-.portfolio__card {
+.portfolio__item {
     flex-basis: calc((100% - 60px) / 3);
 
     &:not(:nth-child(3n)) {
@@ -70,7 +70,7 @@
     margin-bottom: 4px;
 }
 
-.portfolio__category{
+.portfolio__text{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;

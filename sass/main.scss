@@ -5,18 +5,16 @@
 @import './base/container';
 
 @import './components/logo';
-@import './components/header';
 
-@import './components/modal-buttons';  /* подумать */
-@import './components/section-title';
-
+@import './components/section';
+@import './components/header'
+;
+@import './components/main-buttons';  
+@import './components/hero';
 
 @import './components/backdrop';
 @import './components/_modal-window';
 
-
-
-@import './components/hero';
 @import './components/features';
 @import './components/work-directions';
 @import './components/our-workers';
@@ -24,6 +22,7 @@
 @import './components/our-clients';
 
 @import './components/footer';
+
 @import './components/portfolio-buttons';
 @import './components/portfolio-gallery';
 

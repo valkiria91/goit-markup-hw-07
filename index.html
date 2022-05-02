@@ -20,14 +20,14 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header_container">
+      <div class="container header__container">
         <nav class="site-nav">
           <a class="logo" lang="en" href="./index.html"
-            >Web<span class="logo_header">Studio</span></a
+            >Web<span class="logo__header">Studio</span></a
           >
           <ul class="nav">
             <li class="nav__item">
-              <a class="nav__link nav__link_active" href="./index.html">Студия</a>
+              <a class="nav__link nav__link--active" href="./index.html">Студия</a>
             </li>
             <li class="nav__item">
               <a class="nav__link" href="./portfolio.html">Портфолио</a>
@@ -57,7 +57,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-          <button class="modal-button" type="button" data-modal-open>Заказать услугу</button>
+          <button class="main-button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <section class="section">
@@ -112,11 +112,11 @@
           </ul>
         </div>
       </section>
-      <section class="section section_top-padding_zero">
+      <section class="section section--top-padding-zero">
         <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
+          <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="work-directions">
-            <li class="work-directions__card">
+            <li class="work-directions__item">
               <div class="work-directions__image-wrapper">
                 <img
                   src="./images/desktop-apps.jpg"
@@ -127,7 +127,7 @@
                 <p class="work-directions__text">Десктопные приложения</p>
               </div>
             </li>
-            <li class="work-directions__card">
+            <li class="work-directions__item">
               <div class="work-directions__image-wrapper">
                 <img
                   src="./images/mobile-apps.jpg"
@@ -138,7 +138,7 @@
                 <p class="work-directions__text">Мобильные приложения</p>
               </div>
             </li>
-            <li class="work-directions__card">
+            <li class="work-directions__item">
               <div class="work-directions__image-wrapper">
                 <img
                   src="./images/design-solutions.jpg"
@@ -152,11 +152,11 @@
           </ul>
         </div>
       </section>
-      <section class="section section_theme_dark">
+      <section class="section section--theme-dark">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="section__title">Наша команда</h2>
           <ul class="workers">
-            <li class="workers__card">
+            <li class="workers__item">
               <img
                 src="./images/product-designer.jpg"
                 alt="Член команды - продакт-дизайнер"
@@ -164,50 +164,8 @@
                 height="260"
               />
               <div class="workers__info-wrapper">
-                <h3 class="workers__name">Игорь Демьяненко</h3>
-                <p class="workers__position" lang="en">Product Designer</p>
-                <ul class="social-list list">
-                  <li>
-                    <a class="social-list__link" href="https://www.instagram.com/" target="_blank">
-                      <svg class="social-list__icon" width="20" height="20">
-                        <use href="./images/icons.svg#instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-list__link" href="https://twitter.com/" target="_blank">
-                      <svg class="social-list__icon" width="20" height="20">
-                        <use href="./images/icons.svg#twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-list__link" href="https://uk-ua.facebook.com/" target="_blank">
-                      <svg class="social-list__icon" width="20" height="20">
-                        <use href="./images/icons.svg#facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-list__link" href="https://www.linkedin.com/" target="_blank">
-                      <svg class="social-list__icon" width="20" height="20">
-                        <use href="./images/icons.svg#linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="workers__card">
-              <img
-                src="./images/frontend-developer.jpg"
-                alt="Член команды - фронтенд разработчик"
-                width="270"
-                height="260"
-              />
-              <div class="workers__info-wrapper">
-                <h3 class="workers__name">Ольга Репина</h3>
-                <p class="workers__position" lang="en">Frontend Developer</p>
+                <h3 class="workers__title">Игорь Демьяненко</h3>
+                <p class="workers__text" lang="en">Product Designer</p>
                 <ul class="social-list">
                   <li>
                     <a class="social-list__link" href="https://www.instagram.com/" target="_blank">
@@ -240,17 +198,17 @@
                 </ul>
               </div>
             </li>
-            <li class="workers__card">
+            <li class="workers__item">
               <img
-                src="./images/marketing.jpg"
-                alt="Член команды - маркетолог"
+                src="./images/frontend-developer.jpg"
+                alt="Член команды - фронтенд разработчик"
                 width="270"
                 height="260"
               />
               <div class="workers__info-wrapper">
-                <h3 class="workers__name">Николай Тарасов</h3>
-                <p class="workers__position" lang="en">Marketing</p>
-                <ul class="social-list list">
+                <h3 class="workers__title">Ольга Репина</h3>
+                <p class="workers__text" lang="en">Frontend Developer</p>
+                <ul class="social-list">
                   <li>
                     <a class="social-list__link" href="https://www.instagram.com/" target="_blank">
                       <svg class="social-list__icon" width="20" height="20">
@@ -282,7 +240,49 @@
                 </ul>
               </div>
             </li>
-            <li class="workers__card">
+            <li class="workers__item">
+              <img
+                src="./images/marketing.jpg"
+                alt="Член команды - маркетолог"
+                width="270"
+                height="260"
+              />
+              <div class="workers__info-wrapper">
+                <h3 class="workers__title">Николай Тарасов</h3>
+                <p class="workers__text" lang="en">Marketing</p>
+                <ul class="social-list">
+                  <li>
+                    <a class="social-list__link" href="https://www.instagram.com/" target="_blank">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-list__link" href="https://twitter.com/" target="_blank">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-list__link" href="https://uk-ua.facebook.com/" target="_blank">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-list__link" href="https://www.linkedin.com/" target="_blank">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="workers__item">
               <img
                 src="./images/ui-designer.jpg"
                 alt="Член команды - дизайнер пользовательского интерфейса"
@@ -290,8 +290,8 @@
                 height="260"
               />
               <div class="workers__info-wrapper">
-                <h3 class="workers__name">Михаил Ермаков</h3>
-                <p class="workers__position" lang="en">UI Designer</p>
+                <h3 class="workers__title">Михаил Ермаков</h3>
+                <p class="workers__text" lang="en">UI Designer</p>
                 <ul class="social-list">
                   <li>
                     <a class="social-list__link" href="https://www.instagram.com/" target="_blank">
@@ -329,7 +329,7 @@
       </section>
       <section class="section">
         <div class="container">
-          <h1 class="section-title">Постоянные клиенты</h1>
+          <h1 class="section__title">Постоянные клиенты</h1>
           <ul class="clients">
             <li class="clients__item">
               <a class="clients__link" href=""
@@ -372,10 +372,10 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer_container">
+      <div class="container footer__container">
         <div class="address">
           <a class="logo" lang="en" href="./index.html"
-            >Web<span class="logo_footer">Studio</span></a
+            >Web<span class="logo__footer">Studio</span></a
           >
           <address id="contacts">
             <ul class="address__list">
@@ -398,44 +398,44 @@
           <ul class="social-list">
             <li class="social-list__item">
               <a
-                class="social-list__link social-list__link_theme_dark"
+                class="social-list__link social-list__link--theme-dark"
                 href="https://www.instagram.com/"
                 target="_blank"
               >
-                <svg class="social-list__icon social-list__icon_theme_dark" width="20" height="20">
+                <svg class="social-list__icon social-list__icon--theme-dark" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list__item">
               <a
-                class="social-list__link social-list__link_theme_dark"
+                class="social-list__link social-list__link--theme-dark"
                 href="https://twitter.com/"
                 target="_blank"
               >
-                <svg class="social-list__icon social-list__icon_theme_dark" width="20" height="20">
+                <svg class="social-list__icon social-list__icon--theme-dark" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list__item">
               <a
-                class="social-list__link social-list__link_theme_dark"
+                class="social-list__link social-list__link--theme-dark"
                 href="https://uk-ua.facebook.com/"
                 target="_blank"
               >
-                <svg class="social-list__icon social-list__icon_theme_dark" width="20" height="20">
+                <svg class="social-list__icon social-list__icon--theme-dark" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list__item">
               <a
-                class="social-list__link social-list__link_theme_dark"
+                class="social-list__link social-list__link--theme-dark"
                 href="https://www.linkedin.com/"
                 target="_blank"
               >
-                <svg class="social-list__icon social-list__icon_theme_dark" width="20" height="20">
+                <svg class="social-list__icon social-list__icon--theme-dark" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -453,9 +453,9 @@
                 placeholder="E-mail"
                 required
               />
-              <button class="modal-button modal-button_with_icon" type="submit">
+              <button class="main-button main-button--with-icon" type="submit">
                 Подписаться
-                <svg class="modal-button__icon" width="24" height="24">
+                <svg class="main-button__icon" width="24" height="24">
                   <use href="./images/icons.svg#send-icon"></use>
                 </svg>
               </button>
@@ -519,7 +519,7 @@
               Соглашаюсь с рассылкой и принимаю &nbsp;<a href="">Условия договора</a></label
             >
           </div>
-          <button class="modal-button modal-button_form_centered" type="submit">Отправить</button>
+          <button class="main-button main-button--form-centered" type="submit">Отправить</button>
         </form>
       </div>
     </div>

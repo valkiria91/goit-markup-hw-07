@@ -1,4 +1,4 @@
-.modal-button {
+.main-button {
     font-family: var(--text-primary-font);
     font-weight: 700;
     font-size: 16px;
@@ -21,18 +21,18 @@
     }
 }
 
-.modal-button_form_centered {
+.main-button--form-centered {
     display: block;
     margin: 0 auto;
 }
 
-.modal-button_with_icon {
+.main-button--with-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-.modal-button__icon {
+.main-button__icon {
     fill: var(--primary-white-color);
     margin-left: 10px;
 }

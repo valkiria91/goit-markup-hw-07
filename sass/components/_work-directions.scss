@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.work-directions__card {
+.work-directions__item {
     flex-basis: calc((100% - 60px) / 3);
 
     &:not(:last-child) {
